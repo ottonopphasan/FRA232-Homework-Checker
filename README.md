@@ -38,9 +38,18 @@ In the Excel file:
 ---
 
 ### Example  
-In the Excel sheet:
+## Input  
+| Student ID | Q1     | Q2       | Q3      | Q4     |
+| ---------- | ------ | -------- | ------- | ------ |
+| **ans**    | F:6000 | FA:-10.0 | R:1.5-2 | S\:Yes |
+| 65001      | 5999.8 | -10.05   | 1.7     | yes    |
+| 65002      | 6100   | 10.2     | 2.5     | YES    |
+| 65003      | 5800   | -9.8     | 1.6     | no     |
 
-- **`F:6000`** → Float check with tolerance  
-- **`FA:-10.0`** → Absolute float check with tolerance  
-- **`R:1.5-2`** → Range check  
-- **`Cal`** → Auto-calculated based on `Sub_calcuration` file  
+## Output
+| Student ID | Q1 | Q2 | Q3 | Q4 |
+| ---------- | -- | -- | -- | -- |
+| 65001      | ✅  | ✅  | ✅  | ✅  |
+| 65002      | ❌  | ✅  | ❌  | ✅  |
+| 65003      | ❌  | ✅  | ✅  | ❌  |
+
