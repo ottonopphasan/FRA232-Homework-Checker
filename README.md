@@ -1,0 +1,1 @@
+# FRA232-Homework-1-Shaft-Design-Calculation
