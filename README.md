@@ -16,6 +16,8 @@ The main branch contains:
 ```python
 check_excel('name.xlsx', tolerance, 'result_sheet.xlsx')
 
+---
+
 ## 📑 Excel Format Rules
 
 In the Excel file:
