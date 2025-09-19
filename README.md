@@ -1,5 +1,5 @@
 # FRA232-Homework-Checker
-_By 2025 TA_
+_By 2025 FRA232 TA_
 
 This project is a program to **check student homework answers** submitted through **Google Forms** and stored in **Excel** format.
 
